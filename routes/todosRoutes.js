@@ -1,6 +1,7 @@
+//routes/todosRoutes.js
 const express = require("express");
 const router = express.Router();
-const Todo = require("../models/Todo");
+const Todo = require("../models/TodoSchema");
 
 // Get all todos
 router.get("/", async (req, res) => {
